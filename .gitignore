@@ -205,3 +205,47 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+
+
+# Odoo specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Odoo compiled templates
+*.mo
+*.pot
+
+# Odoo session/db files
+*.sqlite
+*.log
+
+# Odoo filestore (attachments)
+filestore/
+*.filestore
+
+# Odoo cache & tmp
+.odoo_session*
+.odoo_env*
+*.swp
+
+# Local config files
+odoo.conf
+*.conf
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# VS Code or IDE specific
+.vscode/
+.idea/
+
+# Node / web assets (if module uses npm / yarn for JS/CSS)
+node_modules/
+dist/
+build/
